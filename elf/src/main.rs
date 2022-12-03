@@ -1,3 +1,5 @@
+// Useful documentation: https://doc.rust-lang.org/rust-by-example/std_misc/file/read_lines.html
+
 use std::env;
 use std::fs;
 use std::io::{self, BufRead};
