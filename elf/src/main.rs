@@ -15,7 +15,7 @@ fn main() {
         ): (u64, u64, u64) = (0, 0, 0);
 
     if let Ok(lines) = read_lines(file_path) {
-        let mut current: u64 = 16;
+        let mut current: u64 = 0;
 
         for lines in lines {
             if let Ok(ip) = lines {
